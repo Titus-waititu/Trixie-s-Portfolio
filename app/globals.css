@@ -89,17 +89,41 @@ a:focus-visible {
 }
 
 .wordmark-mark {
+  position: relative;
   display: grid;
   width: 31px;
   height: 31px;
   place-items: center;
   border-radius: 9px;
-  background: var(--accent);
+  background: #1f1f26;
   color: white;
+  overflow: visible;
+}
+
+.wordmark-n {
+  display: block;
   font-size: 17px;
   font-weight: 850;
-  letter-spacing: -0.07em;
+  line-height: 1;
+  letter-spacing: -0.1em;
 }
+
+.wordmark-index {
+  position: absolute;
+  top: -8px;
+  right: -5px;
+  display: grid;
+  min-width: 16px;
+  height: 16px;
+  place-items: center;
+  padding: 0 3px;
+  border-radius: 3px;
+  background: #f5f3f5;
+  color: #1d1d22;
+  font-size: 7px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+} 
 
 .main-nav {
   display: flex;
@@ -1220,8 +1244,12 @@ a:focus-visible {
   width: 27px;
   height: 27px;
   border: 1px solid rgb(255 255 255 / 25%);
-  background: transparent;
-  font-size: 14px;
+  background: #1b1b22;
+}
+
+.wordmark-light .wordmark-index {
+  background: #f1eff6;
+  color: #1a1b22;
 }
 
 .back-to-top {
