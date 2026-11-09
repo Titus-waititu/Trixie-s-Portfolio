@@ -60,10 +60,6 @@ export default function Home() {
       <header className="site-header">
         <div className="header-inner">
           <a className="wordmark" href="#home" aria-label="Emmanuel Isiaho, home">
-            <span className="wordmark-mark" aria-hidden="true">
-              <span className="wordmark-n">N</span>
-              <span className="wordmark-index">05</span>
-            </span>
             <span>EMMANUEL ISIAHO</span>
           </a>
           <nav className="main-nav" aria-label="Main navigation">
@@ -366,10 +362,6 @@ export default function Home() {
             </a>
             <div className="contact-footer">
               <a className="wordmark wordmark-light" href="#home">
-                <span className="wordmark-mark" aria-hidden="true">
-                  <span className="wordmark-n">N</span>
-                  <span className="wordmark-index">05</span>
-                </span>
                 <span>EMMANUEL ISIAHO</span>
               </a>
               <span>DESIGNED WITH INTENTION. BUILT WITH CARE.</span>
